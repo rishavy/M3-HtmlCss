@@ -33,15 +33,24 @@
             gap: 20px;
             padding: 20px;
             text-decoration: none;
+            cursor: pointer;
         }
         .nav input{
             padding: 15px;
+            padding-left: 30px;
             height: 45px;
             width: 600px;
             border-radius: 10px;
-            background-color: #b9e6f838;
+            font-size: 16px;
+            background-color: #edf8fc88;
             border: 0;
+            background-image: url("./search-line.svg");
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: 10px 13px;
+            
         }
+        
         .nav-list{
             display: flex;
             align-items: center;
@@ -49,7 +58,7 @@
             font-size: 20px;
             gap: 50px;
             /* border: 1px solid red; */
-            margin-right: 10%;
+            margin-right: 5%;
         }
         .nav-list a{
             text-decoration: none;
@@ -61,6 +70,7 @@
             align-items: center;
             justify-content: space-between;
             margin: 0px 20px;
+            cursor: pointer;
         }
         .nav2-list{
             padding: 10px;
@@ -71,6 +81,7 @@
             align-items: center;
             justify-content: center;
             margin-top: 30px;
+            cursor: pointer;
         }
         .image img{
             width: 100%;
@@ -87,12 +98,15 @@
                 <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="">
             </div>
             <div class="search">
-                <input type="text" placeholder="Search for Products, Brands and More">
+                <input type="text" placeholder=" Search for Products, Brands and More">
+                
             </div>
             <div class="nav-list">
-                <i class="ri-account-pin-circle-line"><a href="">Login</a></i>
+                <i class="ri-account-pin-circle-line"><a href=""> Login</a></i>
                 <i class="ri-shopping-cart-2-line"><a href=""> Cart</a></i>
                 <i class="ri-store-line"><a href=""> Become a Seller</a></i>
+
+                <i class="ri-more-2-line"></i>
             </div>
             
         </div>
